@@ -13,13 +13,13 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - uses: vn7n24fzkq5o/github-profile-summary-cards@release
+      - uses: vn7n24fzkq/github-profile-summary-cards@release
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           user: Snowdenru
           theme: github
 
-      - uses: vn7n24fzkq5o/github-profile-summary-cards@release
+      - uses: vn7n24fzkq/github-profile-summary-cards@release
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           user: Snowdenru
